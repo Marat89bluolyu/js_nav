@@ -1,0 +1,36 @@
+	body {
+		
+	}
+	
+	nav li {
+		display: table-cell;
+	}
+
+	button {
+		margin: 10px 5px 0 5px;
+		padding: 5px 20px;
+		border-radius: 8px;
+		background-color: #2f87c6;
+		border: none;
+	}
+
+	button, 
+	button:active, 
+	button:focus {
+	outline: none;
+	}
+
+	#message {
+		padding: 20px 40% 20px 0;
+	}
+	
+	#dropdown_container {
+		display: none;
+		background-color: #2ca9ce;
+		padding: 3px 0;
+	}
+
+	#dropdown_container>
+	div:hover {
+		background-color: #8fafc6;
+	}
